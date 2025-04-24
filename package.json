@@ -1,0 +1,49 @@
+{
+  "name": "aqui-aceita-bitcoin-api",
+  "version": "0.1.0",
+  "description": "API para sincronização com OpenStreetMap para o projeto 'Aqui aceita Bitcoin?' do Clube BR?LN",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dverschoor78/aqui-aceita-bitcoin-api-Open-street-map.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "api",
+    "openstreetmap",
+    "btcmap"
+  ],
+  "author": "Clube BR?LN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dverschoor78/aqui-aceita-bitcoin-api-Open-street-map/issues"
+  },
+  "homepage": "https://github.com/dverschoor78/aqui-aceita-bitcoin-api-Open-street-map#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "jsonwebtoken": "^9.0.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^6.9.0",
+    "joi": "^17.9.2",
+    "winston": "^3.10.0",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.2"
+  }
+}
